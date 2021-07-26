@@ -1,0 +1,10 @@
+.headline{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.headline--big{
+    margin-bottom: 0px;
+    font-size:30px; 
+}

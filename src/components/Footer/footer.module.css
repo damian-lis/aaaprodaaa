@@ -1,0 +1,17 @@
+.footer{
+    background-color: var(--blue-color);
+    -webkit-box-shadow: 5px 5px 5px 5px var(--box-shadow-color);
+    box-shadow: 5px 5px 5px 5px var(--box-shadow-color);
+}
+
+.footer__content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width:1300px;
+    height:55px;
+    margin: 0 auto;
+    padding:0 20px;
+    color: rgb(255,255,255);
+}

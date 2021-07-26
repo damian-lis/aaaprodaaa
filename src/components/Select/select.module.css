@@ -1,0 +1,25 @@
+.select{
+    max-width:100%;
+    width:280px;
+    height:45px;
+    margin-left: 10px;
+    padding: 0 10px;
+    border:0;
+    border-radius:5px;
+    -webkit-box-shadow: 1px 1px 5px 1px var(--box-shadow-color); 
+    box-shadow: 1px 1px 5px 1px var(--box-shadow-color);
+    font-size:15px;
+    cursor:pointer;
+}
+
+.select:focus{
+    -webkit-box-shadow: 1px 1px 5px 1px var(--box-shadow-color-dark); 
+    box-shadow: 1px 1px 5px 1px var(--box-shadow-color-dark);
+}
+
+@media(max-width:600px){
+    .select{
+        margin-left: 0;
+        margin-top:10px;
+    }
+}
